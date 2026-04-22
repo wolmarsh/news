@@ -6,5 +6,6 @@ theme = 'anubis'
 [params]
 description = 'Daily insights into the evolving landscape of cybersecurity.'
 
-[params.social]
-github = 'https://github.com/wolmarsh'
+[[params.social]]
+id = "github"
+url = "https://github.com/wolmarsh"
