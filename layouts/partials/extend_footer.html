@@ -1,1 +1,28 @@
-<!-- Custom footer extensions can be added here -->
+<!-- The hidden source for the sidebar -->
+<div id="sidebar-source" style="display:none;">
+    {{ partial "sidebar.html" . }}
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // 1. Sidebar Injection
+        const main = document.querySelector('.main');
+        if (main) {
+            const sidebar = document.createElement('aside');
+            sidebar.className = 'sidebar';
+            sidebar.innerHTML = document.getElementById('sidebar-source').innerHTML;
+            main.appendChild(sidebar);
+        }
+
+        // 2. Back Button Injection
+        const backBtn = document.createElement('a');
+        backBtn.innerHTML = '← Back';
+        backBtn.className = 'custom-back-button';
+        backBtn.href = 'javascript:history.back()';
+        
+        const contentArea = document.querySelector('.post-single') || document.querySelector('.main');
+        if (contentArea) {
+            contentArea.prepend(backBtn);
+        }
+    });
+</script>
