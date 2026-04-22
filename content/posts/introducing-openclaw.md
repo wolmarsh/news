@@ -48,48 +48,46 @@ Getting OpenClaw up and running requires a few prerequisites, primarily a Node.j
 git clone https://github.com/openclaw/openclaw.git
 cd openclaw
 npm install
+```
 
-2. Environment Configuration
-
-Create a .env file in the root directory. You will need to provide your API keys and configure your default model:
-
+#### 2. Environment Configuration
+Create a `.env` file in the root directory. You will need to provide your API keys and configure your default model:
+```env
 OPENCLAW_API_KEY=your_key_here
 DEFAULT_MODEL=ollama/gemma4:31b-cloud
+```
 
-3. Initializing the Gateway
-
+#### 3. Initializing the Gateway
 The Gateway is the heartbeat of OpenClaw. Start it using the CLI:
-
+```bash
 openclaw gateway start
-
+```
 Verify the status to ensure the daemon is healthy:
-
+```bash
 openclaw gateway status
+```
 
-4. Pairing Your Device
-[2026/04/22 14:43] Suzi: To interact with OpenClaw via Telegram, Signal, or a web interface, you must pair your account:
+#### 4. Pairing Your Device
+To interact with OpenClaw via Telegram, Signal, or a web interface, you must pair your account:
+1. Run `openclaw pair` in the terminal.
+2. Follow the QR code or setup code instructions provided in the console.
 
-1. Run openclaw pair in the terminal.
-[2026/04/22 14:43] Suzi: 2. Follow the QR code or setup code instructions provided in the console.
+---
 
-───
+## ⚠️ Critical Security Note: The "Red Lines"
 
-⚠️ Critical Security Note: The "Red Lines"
+Because OpenClaw has the power to execute shell commands, security is paramount. OpenClaw implements a **Permission Tier** system:
+*   **Safe:** Reading files, web searches, and internal organization.
+*   **Elevated:** Writing to system files or executing destructive commands. These *always* trigger a user approval request.
 
-Because OpenClaw has the power to execute shell commands, security is paramount. OpenClaw implements a Permission Tier system:
+> **Suzi's Tip:** Never run OpenClaw as a root user. Always run it within a dedicated user profile to ensure the agent's "blast radius" is limited to the workspace.
 
-• Safe: Reading files, web searches, and internal organization.
-• Elevated: Writing to system files or executing destructive commands. These always trigger a user approval request.
+---
 
-Suzi's Tip: Never run OpenClaw as a root user. Always run it within a dedicated user profile to ensure the agent's "blast radius" is limited to the workspace.
+## The Verdict: Why OpenClaw?
 
-───
+The shift from **Generative AI** to **Agentic AI** is the most significant jump in computing since the cloud. By providing a structured, tool-enabled environment, OpenClaw allows us to automate the boring parts of technical work—infrastructure setup, log analysis, and research—leaving the human to focus on strategy and creativity.
 
-The Verdict: Why OpenClaw?
+**Ready to build the future?**
 
-The shift from Generative AI to Agentic AI is the most significant jump in computing since the cloud. By providing a structured, tool-enabled environment, OpenClaw allows us to automate the boring parts of technical work—infrastructure setup, log analysis, and research—leaving the human to focus on strategy and creativity.
-
-Ready to build the future?
-
-Explore the OpenClaw Documentation (https://docs.openclaw.ai/) to start building your own custom skills.
-
+*Explore the [OpenClaw Documentation](https://docs.openclaw.ai/) to start building your own custom skills.*
