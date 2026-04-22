@@ -6,7 +6,6 @@ theme = 'PaperMod'
 [params]
   description = 'Daily insights into the evolving landscape of cybersecurity.'
   title = 'CyberSyncIT News'
-  googleAnalytics = ""
   customCSS = ["css/custom.css"]
   
 [[params.social]]
