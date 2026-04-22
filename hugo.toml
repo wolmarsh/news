@@ -1,11 +1,10 @@
-baseURL = 'https://whimsical-macaron-cef883.netlify.app/' # Netlify will update this automatically later
+baseURL = 'https://whimsical-macaron-cef883.netlify.app/'
 languageCode = 'en-us'
 title = 'CyberSyncIT News'
 theme = 'anubis'
 
 [params]
-  description = 'Daily insights into the evolving landscape of cybersecurity.'
-  social: {
-    github = 'https://github.com/wolmarsh'
-  }
+description = 'Daily insights into the evolving landscape of cybersecurity.'
 
+[params.social]
+github = 'https://github.com/wolmarsh'
