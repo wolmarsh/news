@@ -1,4 +1,4 @@
-baseURL = 'https://whimsical-macaron-cef883.netlify.app/'
+baseURL = 'https://wolmarsh.github.io/news/'
 languageCode = 'en-us'
 title = 'CyberSyncIT News'
 theme = 'PaperMod'
