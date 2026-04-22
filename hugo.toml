@@ -11,5 +11,3 @@ theme = 'PaperMod'
 id = "github"
 url = "https://github.com/wolmarsh"
 
-[params.dark]
-  style = 'dark' # This forces the modern dark mode look
