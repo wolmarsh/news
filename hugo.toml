@@ -1,11 +1,15 @@
 baseURL = 'https://whimsical-macaron-cef883.netlify.app/'
 languageCode = 'en-us'
 title = 'CyberSyncIT News'
-theme = 'anubis'
+theme = 'PaperMod'
 
 [params]
-description = 'Daily insights into the evolving landscape of cybersecurity.'
-
+  description = 'Daily insights into the evolving landscape of cybersecurity.'
+  title = 'CyberSyncIT News'
+  
 [[params.social]]
 id = "github"
 url = "https://github.com/wolmarsh"
+
+[params.dark]
+  style = 'dark' # This forces the modern dark mode look

@@ -1,0 +1,11 @@
+baseURL = 'https://whimsical-macaron-cef883.netlify.app/'
+languageCode = 'en-us'
+title = 'CyberSyncIT News'
+theme = 'anubis'
+
+[params]
+description = 'Daily insights into the evolving landscape of cybersecurity.'
+
+[[params.social]]
+id = "github"
+url = "https://github.com/wolmarsh"
