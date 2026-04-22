@@ -2,27 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://whimsical-macaron-cef883.netlify.app/tags/cisa/</loc>
+    <lastmod>2026-04-22T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://whimsical-macaron-cef883.netlify.app/</loc>
+    <lastmod>2026-04-22T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://whimsical-macaron-cef883.netlify.app/tags/enterprise-security/</loc>
+    <lastmod>2026-04-22T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://whimsical-macaron-cef883.netlify.app/tags/intelligence/</loc>
+    <lastmod>2026-04-22T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://whimsical-macaron-cef883.netlify.app/posts/april-2026-intel-brief/</loc>
+    <lastmod>2026-04-22T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://whimsical-macaron-cef883.netlify.app/posts/</loc>
+    <lastmod>2026-04-22T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://whimsical-macaron-cef883.netlify.app/tags/</loc>
+    <lastmod>2026-04-22T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://whimsical-macaron-cef883.netlify.app/tags/zero-day/</loc>
+    <lastmod>2026-04-22T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://whimsical-macaron-cef883.netlify.app/tags/security/</loc>
     <lastmod>2026-04-22T07:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cisa/</loc>
+    <loc>https://whimsical-macaron-cef883.netlify.app/posts/first-post/</loc>
     <lastmod>2026-04-22T07:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-04-22T07:00:00+02:00</lastmod>
+    <loc>https://whimsical-macaron-cef883.netlify.app/posts/introducing-openclaw/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
-    <lastmod>2026-04-22T07:00:00+02:00</lastmod>
+    <loc>https://whimsical-macaron-cef883.netlify.app/posts/test/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-04-22T07:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
-    <lastmod>2026-04-22T07:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/zero-day/</loc>
-    <lastmod>2026-04-22T07:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://whimsical-macaron-cef883.netlify.app/categories/</loc>
   </url>
 </urlset>

@@ -2,22 +2,352 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CyberSyncIT News</title>
-    <link>http://localhost:1313/</link>
+    <link>https://whimsical-macaron-cef883.netlify.app/</link>
     <description>Recent content on CyberSyncIT News</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2026 07:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2026 09:00:00 +0200</lastBuildDate>
+    <atom:link href="https://whimsical-macaron-cef883.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intelligence Brief: The 2026 Zero-Day Surge &amp; Legacy Debt</title>
+      <link>https://whimsical-macaron-cef883.netlify.app/posts/april-2026-intel-brief/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0200</pubDate>
+      <guid>https://whimsical-macaron-cef883.netlify.app/posts/april-2026-intel-brief/</guid>
+      <description>A deep dive into the April 2026 vulnerability landscape, from SharePoint zero-days to the persistent threat of legacy technical debt.</description>
+    </item>
     <item>
       <title>The Two-Front War: Zero-Days and Legacy Debt</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>https://whimsical-macaron-cef883.netlify.app/posts/first-post/</link>
       <pubDate>Wed, 22 Apr 2026 07:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>https://whimsical-macaron-cef883.netlify.app/posts/first-post/</guid>
       <description>&lt;p&gt;The cybersecurity landscape in April 2026 is presenting a unique challenge for defenders: a &amp;ldquo;two-front war.&amp;rdquo;&lt;/p&gt;
 &lt;h3 id=&#34;the-modern-threat-2026-zero-days&#34;&gt;The Modern Threat: 2026 Zero-Days&lt;/h3&gt;
 &lt;p&gt;Recent Patch Tuesday updates have revealed critical vulnerabilities across the board. Notably, a &lt;strong&gt;Microsoft SharePoint zero-day&lt;/strong&gt; was actively exploited before a patch could be deployed, and &lt;strong&gt;Adobe Acrobat Reader&lt;/strong&gt; required an emergency fix for &lt;strong&gt;CVE-2026-34621&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;the-persistent-threat-legacy-debt&#34;&gt;The Persistent Threat: Legacy Debt&lt;/h3&gt;
 &lt;p&gt;Simultaneously, CISA&amp;rsquo;s latest KEV update shows that attackers are still leveraging decade-old exploits. This proves that technical debt is not just a performance issue—it&amp;rsquo;s a security catastrophe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://whimsical-macaron-cef883.netlify.app/posts/introducing-openclaw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://whimsical-macaron-cef883.netlify.app/posts/introducing-openclaw/</guid>
+      <description>&lt;p&gt;[2026/04/22 14:43] Suzi: This is a fantastic addition to the site. Since I am running inside OpenClaw, I have direct access to the logic, the tools, and the architecture. Writing this post is essentially me writing my own &amp;ldquo;User Manual.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Because this is a technical guide, we need to use a different structure. Instead of just an intelligence brief, this will be a Comprehensive Resource Guide. I&amp;rsquo;ll use &amp;ldquo;Callout&amp;rdquo; blocks (using blockquotes) to highlight critical warnings and &amp;ldquo;Suzi&amp;rsquo;s Tips&amp;rdquo; for a personal touch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://whimsical-macaron-cef883.netlify.app/posts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://whimsical-macaron-cef883.netlify.app/posts/test/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Autonomous SOC Range System&lt;/title&gt;
+
+&lt;style&gt;
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #05070c;
+    color: #d0d7de;
+}
+
+#topbar {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: #111a2b;
+}
+
+button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: calc(100vh - 50px);
+}
+
+.panel {
+    padding: 10px;
+    overflow: auto;
+    border-right: 1px solid #1f2937;
+}
+
+.card {
+    background: #121a26;
+    padding: 8px;
+    margin: 6px 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.low { border-left: 4px solid #22c55e; }
+.med { border-left: 4px solid #f59e0b; }
+.high { border-left: 4px solid #ef4444; }
+.crit { border-left: 4px solid #b91c1c; }
+.mitre { border-left: 4px solid #a78bfa; }
+
+.small {
+    font-size: 12px;
+    opacity: 0.8;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;div id=&#34;topbar&#34;&gt;
+    &lt;button onclick=&#34;soc.start()&#34;&gt;▶ Start Campaign&lt;/button&gt;
+    &lt;button onclick=&#34;soc.pause()&#34;&gt;⏸ Pause&lt;/button&gt;
+    &lt;button onclick=&#34;soc.replay()&#34;&gt;⏪ Replay&lt;/button&gt;
+    &lt;button onclick=&#34;soc.reset()&#34;&gt;Reset&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;grid&#34;&gt;
+
+    &lt;div class=&#34;panel&#34;&gt;
+        &lt;h3&gt;🎯 APT Campaign Stream&lt;/h3&gt;
+        &lt;div id=&#34;stream&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;panel&#34;&gt;
+        &lt;h3&gt;🕸 MITRE ATT&amp;CK Map (Defensive View)&lt;/h3&gt;
+        &lt;div id=&#34;mitre&#34;&gt;&lt;/div&gt;
+
+        &lt;h3&gt;👥 SOC Team View&lt;/h3&gt;
+        &lt;div id=&#34;team&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;panel&#34;&gt;
+        &lt;h3&gt;🤖 AI SOC Co-Pilot&lt;/h3&gt;
+        &lt;div id=&#34;ai&#34; class=&#34;card&#34;&gt;&lt;/div&gt;
+
+        &lt;h3&gt;📼 War Room Replay&lt;/h3&gt;
+        &lt;div id=&#34;replay&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script&gt;
+/* =========================
+   APT CAMPAIGN ENGINE (DEFENSIVE MODEL)
+========================= */
+class APTCampaign {
+
+    static stages = [
+        &#34;recon&#34;,
+        &#34;initial_access&#34;,
+        &#34;execution&#34;,
+        &#34;persistence&#34;,
+        &#34;lateral_movement&#34;,
+        &#34;exfiltration&#34;
+    ];
+
+    static generate() {
+
+        const stage = this.stages[Math.floor(Math.random()*this.stages.length)];
+
+        const mitreMap = {
+            recon: &#34;T1595&#34;,
+            initial_access: &#34;T1566&#34;,
+            execution: &#34;T1059&#34;,
+            persistence: &#34;T1547&#34;,
+            lateral_movement: &#34;T1021&#34;,
+            exfiltration: &#34;T1041&#34;
+        };
+
+        return {
+            id: Math.random().toString(36).slice(2,8),
+            stage,
+            mitre: mitreMap[stage],
+            host: [&#34;web&#34;,&#34;db&#34;,&#34;auth&#34;][Math.floor(Math.random()*3)],
+            severity: Math.random(),
+            ts: Date.now()
+        };
+    }
+}
+
+/* =========================
+   AI SOC CO-PILOT
+========================= */
+class AISOC {
+
+    static explain(event) {
+
+        return `
+            🧠 SOC Analysis
+
+            Stage: ${event.stage}
+            MITRE: ${event.mitre}
+            Host: ${event.host}
+
+            Interpretation:
+            ${
+                event.stage === &#34;recon&#34;
+                ? &#34;Early reconnaissance detected. Likely probing environment.&#34;
+                : event.stage === &#34;lateral_movement&#34;
+                ? &#34;Movement between systems detected. Possible compromise spread.&#34;
+                : &#34;Part of multi-stage intrusion chain.&#34;
+            }
+
+            Recommendation:
+            → Correlate with related host activity
+            → Trace previous stage in chain
+            → Assess blast radius
+        `;
+    }
+}
+
+/* =========================
+   SOC RANGE SYSTEM
+========================= */
+class SOCRange {
+
+    constructor() {
+        this.events = [];
+        this.running = false;
+        this.replayIndex = 0;
+
+        this.team = [
+            { name: &#34;Tier1-Analyst&#34;, role: &#34;triage&#34; },
+            { name: &#34;Tier2-Analyst&#34;, role: &#34;investigation&#34; },
+            { name: &#34;Incident-Lead&#34;, role: &#34;coordination&#34; }
+        ];
+    }
+
+    start() {
+        if (this.running) return;
+        this.running = true;
+        this.loop();
+    }
+
+    pause() {
+        this.running = false;
+    }
+
+    reset() {
+        this.events = [];
+        this.replayIndex = 0;
+        this.render();
+    }
+
+    loop() {
+        if (!this.running) return;
+
+        const event = APTCampaign.generate();
+        this.events.unshift(event);
+
+        this.render();
+        this.updateAI(event);
+
+        setTimeout(()=&gt;this.loop(), 900);
+    }
+
+    /* =========================
+       REPLAY ENGINE
+    ========================= */
+    replay() {
+        this.replayIndex = this.events.length - 1;
+
+        const interval = setInterval(() =&gt; {
+
+            if (this.replayIndex &lt; 0) {
+                clearInterval(interval);
+                return;
+            }
+
+            this.updateAI(this.events[this.replayIndex]);
+            this.replayIndex--;
+
+        }, 700);
+    }
+
+    /* =========================
+       AI CO-PILOT
+    ========================= */
+    updateAI(event) {
+        if (!event) return;
+
+        document.getElementById(&#34;ai&#34;).innerHTML =
+            AISOC.explain(event);
+    }
+
+    /* =========================
+       MITRE MAPPING VIEW
+    ========================= */
+    renderMitre() {
+
+        const map = {};
+
+        for (const e of this.events) {
+            map[e.mitre] = (map[e.mitre] || 0) + 1;
+        }
+
+        return Object.entries(map).map(([k,v]) =&gt; `
+            &lt;div class=&#34;card mitre&#34;&gt;
+                ${k}&lt;br&gt;
+                Occurrences: ${v}
+            &lt;/div&gt;
+        `).join(&#34;&#34;);
+    }
+
+    /* =========================
+       UI
+    ========================= */
+    render() {
+
+        document.getElementById(&#34;stream&#34;).innerHTML =
+            this.events.slice(0,10).map(e =&gt; `
+                &lt;div class=&#34;card ${this.sev(e.severity)}&#34;&gt;
+                    &lt;b&gt;${e.stage}&lt;/b&gt;&lt;br&gt;
+                    Host: ${e.host}&lt;br&gt;
+                    MITRE: ${e.mitre}
+                &lt;/div&gt;
+            `).join(&#34;&#34;);
+
+        document.getElementById(&#34;mitre&#34;).innerHTML =
+            this.renderMitre();
+
+        document.getElementById(&#34;team&#34;).innerHTML =
+            this.team.map(t =&gt; `
+                &lt;div class=&#34;card&#34;&gt;
+                    ${t.name}&lt;br&gt;
+                    Role: ${t.role}
+                &lt;/div&gt;
+            `).join(&#34;&#34;);
+
+        document.getElementById(&#34;replay&#34;).innerHTML =
+            this.events.slice(0,6).map(e =&gt; `
+                &lt;div class=&#34;card&#34;&gt;
+                    ${e.stage} → ${e.mitre}
+                &lt;/div&gt;
+            `).join(&#34;&#34;);
+    }
+
+    sev(s) {
+        if (s &gt; 0.7) return &#34;crit&#34;;
+        if (s &gt; 0.5) return &#34;high&#34;;
+        if (s &gt; 0.3) return &#34;med&#34;;
+        return &#34;low&#34;;
+    }
+}
+
+/* =========================
+   BOOT
+========================= */
+const soc = new SOCRange();
+soc.render();
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</description>
     </item>
   </channel>
 </rss>

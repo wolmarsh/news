@@ -1,0 +1,26 @@
+# Hugo/PaperMod Best Practice .gitignore
+
+# Hugo build output
+public/
+
+# Hugo generated resources
+resources/_gen/
+
+# Hugo build lock
+.hugo_build.lock
+
+# OS/Editor/IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Node/Tailwind/PostCSS (if used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# VSCode
+.vscode/

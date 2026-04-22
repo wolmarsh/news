@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Zero-Day on CyberSyncIT News</title>
-    <link>http://localhost:1313/tags/zero-day/</link>
+    <link>https://whimsical-macaron-cef883.netlify.app/tags/zero-day/</link>
     <description>Recent content in Zero-Day on CyberSyncIT News</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2026 07:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/zero-day/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2026 09:00:00 +0200</lastBuildDate>
+    <atom:link href="https://whimsical-macaron-cef883.netlify.app/tags/zero-day/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intelligence Brief: The 2026 Zero-Day Surge &amp; Legacy Debt</title>
+      <link>https://whimsical-macaron-cef883.netlify.app/posts/april-2026-intel-brief/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0200</pubDate>
+      <guid>https://whimsical-macaron-cef883.netlify.app/posts/april-2026-intel-brief/</guid>
+      <description>A deep dive into the April 2026 vulnerability landscape, from SharePoint zero-days to the persistent threat of legacy technical debt.</description>
+    </item>
     <item>
       <title>The Two-Front War: Zero-Days and Legacy Debt</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>https://whimsical-macaron-cef883.netlify.app/posts/first-post/</link>
       <pubDate>Wed, 22 Apr 2026 07:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>https://whimsical-macaron-cef883.netlify.app/posts/first-post/</guid>
       <description>&lt;p&gt;The cybersecurity landscape in April 2026 is presenting a unique challenge for defenders: a &amp;ldquo;two-front war.&amp;rdquo;&lt;/p&gt;
 &lt;h3 id=&#34;the-modern-threat-2026-zero-days&#34;&gt;The Modern Threat: 2026 Zero-Days&lt;/h3&gt;
 &lt;p&gt;Recent Patch Tuesday updates have revealed critical vulnerabilities across the board. Notably, a &lt;strong&gt;Microsoft SharePoint zero-day&lt;/strong&gt; was actively exploited before a patch could be deployed, and &lt;strong&gt;Adobe Acrobat Reader&lt;/strong&gt; required an emergency fix for &lt;strong&gt;CVE-2026-34621&lt;/strong&gt;.&lt;/p&gt;
