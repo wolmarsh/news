@@ -1,0 +1,20 @@
+<aside class="sidebar">
+    <div class="sidebar-section">
+        <h3 style="color: white; font-weight: bold; margin-bottom: 10px;">Recent News</h3>
+        <ul style="list-style: none; padding: 0;">
+            {{ range first 5 (site.Pages.ByDate.Reverse) }}
+            <li style="margin-bottom: 10px;">
+                <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; display: block;">{{ .Title }}</a>
+                <span style="font-size: 0.8rem; color: #666;">{{ .Date.Format "Jan 02" }}</span>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    <div class="sidebar-section" style="margin-top: 20px;">
+        <h3 style="color: white; font-weight: bold; margin-bottom: 10px;">Quick Links</h3>
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 10px;"><a href="/archives" style="color: #ccc; text-decoration: none;">Full Archives</a></li>
+            <li style="margin-bottom: 10px;"><a href="https://github.com/wolmarsh" style="color: #ccc; text-decoration: none;">GitHub Profile</a></li>
+        </ul>
+    </div>
+</aside>

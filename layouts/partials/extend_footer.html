@@ -1,0 +1,29 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+        // This creates the sidebar container and adds it to the .main area
+        const main = document.querySelector('.main');
+        if (main) {
+            const sidebarContainer = document.createElement('aside');
+            sidebarContainer.className = 'sidebar';
+            
+            // This is a simplified version of the sidebar content
+            // To make it fully dynamic, we usually edit the theme's single.html
+            sidebarContainer.innerHTML = `
+                <div class="sidebar-section">
+                    <h3>Recent News</h3>
+                    <ul>
+                        <li><a href="/posts/first-post/">The Two-Front War</a><span class="post-date">Apr 22</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section" style="margin-top:20px">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/archives">Full Archives</a></li>
+                        <li><a href="https://github.com/wolmarsh">GitHub Profile</a></li>
+                    </ul>
+                </div>
+            `;
+            main.appendChild(sidebarContainer);
+        }
+    });
+</script>

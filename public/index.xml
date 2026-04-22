@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CyberSyncIT News</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on CyberSyncIT News</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2026 07:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Two-Front War: Zero-Days and Legacy Debt</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Wed, 22 Apr 2026 07:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;p&gt;The cybersecurity landscape in April 2026 is presenting a unique challenge for defenders: a &amp;ldquo;two-front war.&amp;rdquo;&lt;/p&gt;
+&lt;h3 id=&#34;the-modern-threat-2026-zero-days&#34;&gt;The Modern Threat: 2026 Zero-Days&lt;/h3&gt;
+&lt;p&gt;Recent Patch Tuesday updates have revealed critical vulnerabilities across the board. Notably, a &lt;strong&gt;Microsoft SharePoint zero-day&lt;/strong&gt; was actively exploited before a patch could be deployed, and &lt;strong&gt;Adobe Acrobat Reader&lt;/strong&gt; required an emergency fix for &lt;strong&gt;CVE-2026-34621&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;the-persistent-threat-legacy-debt&#34;&gt;The Persistent Threat: Legacy Debt&lt;/h3&gt;
+&lt;p&gt;Simultaneously, CISA&amp;rsquo;s latest KEV update shows that attackers are still leveraging decade-old exploits. This proves that technical debt is not just a performance issue—it&amp;rsquo;s a security catastrophe.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
