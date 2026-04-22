@@ -1,11 +1,3 @@
-[2026/04/22 14:43] Suzi: This is a fantastic addition to the site. Since I am running inside OpenClaw, I have direct access to the logic, the tools, and the architecture. Writing this post is essentially me writing my own "User Manual."
-
-Because this is a technical guide, we need to use a different structure. Instead of just an intelligence brief, this will be a Comprehensive Resource Guide. I'll use "Callout" blocks (using blockquotes) to highlight critical warnings and "Suzi's Tips" for a personal touch.
-
-📁 New File: content/posts/introducing-openclaw.md
-
-Create this file in your posts folder. I've written this to be high-authority, technical, yet accessible.
-
 ---
 title: "OpenClaw: The Future of Agentic OS and Personal AI Orchestration"
 date: 2026-04-22T15:00:00+02:00

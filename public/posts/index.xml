@@ -6,8 +6,15 @@
     <description>Recent content in Posts on CyberSyncIT News</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 15:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:58997/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenClaw: The Future of Agentic OS and Personal AI Orchestration</title>
+      <link>http://localhost:58997/posts/introducing-openclaw/</link>
+      <pubDate>Wed, 22 Apr 2026 15:00:00 +0200</pubDate>
+      <guid>http://localhost:58997/posts/introducing-openclaw/</guid>
+      <description>A deep dive into OpenClaw: The open-source framework for managing autonomous agents, tools, and local intelligence.</description>
+    </item>
     <item>
       <title>Intelligence Brief: The 2026 Zero-Day Surge &amp; Legacy Debt</title>
       <link>http://localhost:58997/posts/april-2026-intel-brief/</link>
@@ -25,14 +32,6 @@
 &lt;p&gt;Recent Patch Tuesday updates have revealed critical vulnerabilities across the board. Notably, a &lt;strong&gt;Microsoft SharePoint zero-day&lt;/strong&gt; was actively exploited before a patch could be deployed, and &lt;strong&gt;Adobe Acrobat Reader&lt;/strong&gt; required an emergency fix for &lt;strong&gt;CVE-2026-34621&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;the-persistent-threat-legacy-debt&#34;&gt;The Persistent Threat: Legacy Debt&lt;/h3&gt;
 &lt;p&gt;Simultaneously, CISA&amp;rsquo;s latest KEV update shows that attackers are still leveraging decade-old exploits. This proves that technical debt is not just a performance issue—it&amp;rsquo;s a security catastrophe.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:58997/posts/introducing-openclaw/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58997/posts/introducing-openclaw/</guid>
-      <description>&lt;p&gt;[2026/04/22 14:43] Suzi: This is a fantastic addition to the site. Since I am running inside OpenClaw, I have direct access to the logic, the tools, and the architecture. Writing this post is essentially me writing my own &amp;ldquo;User Manual.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Because this is a technical guide, we need to use a different structure. Instead of just an intelligence brief, this will be a Comprehensive Resource Guide. I&amp;rsquo;ll use &amp;ldquo;Callout&amp;rdquo; blocks (using blockquotes) to highlight critical warnings and &amp;ldquo;Suzi&amp;rsquo;s Tips&amp;rdquo; for a personal touch.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
