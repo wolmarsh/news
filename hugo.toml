@@ -1,4 +1,4 @@
-baseURL = 'https://wolmarsh.netlify.app/' # Netlify will update this automatically later
+baseURL = 'https://whimsical-macaron-cef883.netlify.app/' # Netlify will update this automatically later
 languageCode = 'en-us'
 title = 'CyberSyncIT News'
 theme = 'anubis'
@@ -8,3 +8,4 @@ theme = 'anubis'
   social: {
     github = 'https://github.com/wolmarsh'
   }
+
