@@ -3,7 +3,7 @@
    Target: PaperMod Layout
 */
 
-/* 1. Sidebar Container: The "Cyber" Box - Absolute Positioning */
+/* 1. Sidebar Container: Fixed/Absolute Positioning */
 .sidebar {
     background: #1a1a1a !important;
     padding: 25px !important;
@@ -12,19 +12,20 @@
     color: #ccc !important;
     font-family: sans-serif !important;
     position: absolute !important;
-    top: 100px !important;
-    right: 20px !important;
+    top: 120px !important;
+    right: -350px !important; /* Push it entirely outside the main content container */
     width: 300px !important;
     height: fit-content !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
     z-index: 100 !important;
 }
 
-/* 2. Ensure the main content doesn't overlap the sidebar on large screens */
-@media screen and (min-width: 1400px) {
-    .main {
-        margin-right: 340px !important;
-    }
+/* 2. Center the main content wrapper and provide breathing room */
+.main {
+    position: relative !important;
+    max-width: 800px !important; /* Standard professional reading width */
+    margin: 0 auto !important;
+    padding: 20px !important;
 }
 
 /* 3. Sidebar Section Headers */
@@ -94,17 +95,19 @@
     margin-bottom: 10px !important;
 }
 
-/* Mobile Adjustments: Move sidebar to the bottom of the content */
-@media screen and (max-width: 1399px) {
+/* Mobile Adjustments: Force sidebar to the bottom and center it */
+@media screen and (max-width: 1600px) {
     .sidebar {
         position: relative !important;
-        width: auto !important;
         right: auto !important;
+        left: auto !important;
         top: auto !important;
         margin: 40px auto !important;
+        width: 100% !important;
         max-width: 600px !important;
+        display: block !important;
     }
     .main {
-        margin-right: 0 !important;
+        margin: 0 auto !important;
     }
 }
