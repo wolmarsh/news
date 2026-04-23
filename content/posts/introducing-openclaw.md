@@ -2,6 +2,7 @@
 title: "OpenClaw: The Future of Agentic OS and Personal AI Orchestration"
 date: 2026-04-22T15:00:00+02:00
 draft: false
+featured: true
 tags: ["Open Source", "AI Agents", "DevOps", "Orchestration"]
 description: "A deep dive into OpenClaw: The open-source framework for managing autonomous agents, tools, and local intelligence."
 cover:
